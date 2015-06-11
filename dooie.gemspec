@@ -6,10 +6,11 @@ require 'dooie/version'
 Gem::Specification.new do |spec|
   spec.name          = "dooie"
   spec.version       = Dooie::VERSION
-  spec.authors       = ["Cameron Kidman"]
-  spec.email         = ["cameronjkidman@gmail.com"]
-  spec.description   = %q{TODO: Write a gem description}
-  spec.summary       = %q{TODO: Write a gem summary}
+  spec.authors       = ["Joey Ferguson"]
+  spec.email         = ["fergmastaflex@gmail.com"]
+  spec.description   = 'Finds task comments in your repo and creates a list'
+  spec.summary       = 'We all add comments to our code that let us know we need to come back and do something. 
+                        This finds those and puts them in a file for you so you don\'t lose them'
   spec.homepage      = ""
   spec.license       = "MIT"
 
