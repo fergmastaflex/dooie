@@ -1,0 +1,9 @@
+#!/usr/bin/env ruby
+
+$LOAD_PATH.unshift(File.dirname(File.realpath(__FILE__)) + '/../lib')
+
+require 'dooie'
+
+new_dooie = Dooie::TodoFinder.new
+
+new_dooie.run
